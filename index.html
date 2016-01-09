@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<!-- Meta info -->
+    <meta charset="utf-8">
+    <meta name="description" content="Web client for your personal and commercial Sonos networks">
+    <meta name="keywords" content="site, keywords, go, here">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+		<!-- Title -->
+		<title>Sonos Web Player</title>
+		<!-- Spreadsheet Links -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+
+	<body>
+		<div class="interface-container">
+			<div class="interface-top">
+				<div class="hero-album-cover-container">
+					<img src="images/albumcover-1.jpg" width="100%" alt="Album Cover Background">
+				</div>
+				<header class="menu-header clearfix">
+					<img src="icons/menuButton-white.svg" alt="Menu Button for Left Side Menu" id="side-menu-button" class="side-menu-button">
+					<h1 class="playlist-playing-from">Playing from: PLAYLIST_NAME by PLAYLIST_AUTHOR</h1>
+					<img src="icons/searchIcon-white.svg" alt="Search Button for Right Side Menu" id="search-menu-button" class="search-menu-button">
+					<div class="rate-buttons">
+						<img src="icons/rateUp.svg" alt="Rate Song Up" id="rate-button-up" class="rate-button">
+						<img src="icons/rateDown.svg" alt="Rate Song Down" id="rate-button-down" class="rate-button">
+					</div>
+				</header>
+				<div class="now-playing-info">
+					<h2 class="now-playing">Now Playing</h2>
+					<h3 class="now-playing-song">SONG_TITLE</h3>
+					<h4 class="now-playing-artist">ARTIST_NAME</h4>
+					<h4 class="now-playing-album">ALBUM_NAME</h4>
+				</div>
+				<img src="images/albumcover-1.jpg" alt="" id="album-cover-thumb" class="album-cover-thumb">
+			</div>
+			<div class="playback-buttons">
+				<button class="playback-button playback-button-play">
+					<img src="icons/play-icon.svg" id alt="Play or Pause selected song">
+				</button>
+				<button class="playback-button playback-button-next">
+					<img src="icons/skip-icon.svg" alt="Skip this song">
+				</button>
+				<button class="playback-button playback-button-more">
+					<img src="icons/more-icon.svg" alt="More options for this song">
+				</button>
+			</div>
+			<div class="interface-bottom">
+				<div class="play-queue">
+					<h2 class="play-queue-title">Coming Up Next</h2>
+					<!-- <h2 class="play-queue-total-songs">6 Songs</h2> -->
+					<div class="queue-item">
+						<p class="queue-song" id="queue-song-1">2. The Drummer</p>
+						<div class="queue-song-moreinfo">
+							<p class="queue-artist" id="queue-artist-1">Niki & The Dove</p>
+							<p class="queue-album" id="queue-album-1">The Drummer EP</p>
+							<p class="queue-song-length" id="queue-song-length-1"></p>
+						</div>
+					</div>
+					<div class="queue-item clearfix">
+						<p class="queue-song" id="queue-song-2">3. Dark Matter</p>
+						<div class="queue-song-moreinfo">
+							<p class="queue-artist" id="queue-artist-2">Feathers</p>
+							<p class="queue-album" id="queue-album-2">If All Now Here</p>
+							<p class="queue-song-length" id="queue-song-length-2"></p>
+						</div>
+					</div>
+					<div class="queue-item clearfix">
+						<p class="queue-song" id="queue-song-3">4. The Set Up</p>
+						<div class="queue-song-moreinfo">
+							<p class="queue-artist" id="queue-artist-3">Favored Nations</p>
+							<p class="queue-album" id="queue-album-3">The Music of Grand Theft Auto V, Vol 1: Original Music</p>
+							<p class="queue-song-length" id="queue-song-length-3"></p>
+						</div>
+					</div>
+					<div class="queue-item clearfix">
+						<p class="queue-song" id="queue-song-4">5. Hold On</p>
+						<div class="queue-song-moreinfo">
+							<p class="queue-artist" id="queue-artist-4">Holy Ghost!</p>
+							<p class="queue-album" id="queue-album-4">Holy Ghost!</p>
+							<p class="queue-song-length" id="queue-song-length-4"></p>
+						</div>
+					</div>
+					<div class="queue-item clearfix">
+						<p class="queue-song" id="queue-song-5">6. Departure</p>
+						<div class="queue-song-moreinfo">
+							<p class="queue-artist" id="queue-artist-5">Kodak to Graph</p>
+							<p class="queue-album" id="queue-album-5">Oldies</p>
+							<p class="queue-song-length" id="queue-song-length-5"></p>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="more-playlists">
+					<h2 class="play-queue-title">More Playlists</h2>
+				</div> -->
+			</div>
+			<footer class="site-footer is-hidden">
+			<p>&copy; 2015. Developed by <a href="http://bozzie.me">Bozzie</a>. APIs graciously provided by Sonos and Spotify.</p>
+			</footer>
+		</div><!-- .site-container -->
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

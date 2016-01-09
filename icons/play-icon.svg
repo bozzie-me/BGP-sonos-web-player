@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15855) - http://www.bohemiancoding.com/sketch -->
+    <title>Triangle 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="NowPlaying_wireframing" sketch:type="MSArtboardGroup" transform="translate(-150.000000, -289.000000)" fill="#FFFFFF">
+            <g id="InteractionButtons" sketch:type="MSLayerGroup" transform="translate(133.000000, 275.000000)">
+                <g id="PlayButton" sketch:type="MSShapeGroup">
+                    <path d="M37.3626374,24.7252747 L17.5824176,34.6153846 L17.5824176,14.8351648 L37.3626374,24.7252747 L37.3626374,24.7252747 Z" id="Triangle-1"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15855) - http://www.bohemiancoding.com/sketch -->
+    <title>menuButton_white</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="NowPlaying" sketch:type="MSArtboardGroup" transform="translate(-19.000000, -57.000000)">
+            <image id="menuButton_white" sketch:type="MSBitmapLayer" x="19" y="57" width="25" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAABGdBTUEAA1teXP8meAAAATFJREFUWAntmdENgkAQRE/jv3YgHWgHYgeUYCdiB5RCB0IH2gF0cFSAM0R+LnzuJrfJbjKR42N4zOEdd4R5ngNUQxHKtchGxrDjQQjhCVmoF4EjSI8WaME4EXg2Artg7i3BkpXAvSHono/ECcAddMkc/Au+ksDkJHQFFVCONQCqheIKnCPkJpPJP93mneR60hPW7hlP2BNOEvBHIglEvHn4O17xW0OconOsCKga+nBqLnHwhizUncADSM8WaME4EthXHJq9xWFt1LyAsPdI4IewqabdY32BNzWsaSYi7u1Ts3ikiaEnnAQi3vSExSNNDD3hJBDxprmE1xUHVxoVVIhHImM4wKaFls1AwnaQme1Wwt4gC7VsaPuKQ7OrOEpMmhcQ9p4I3Aibato1/Gxr6tPtD/tRpQ9gl2L1AAAAAElFTkSuQmCC"></image>
+        </g>
+    </g>
+</svg>
